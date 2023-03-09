@@ -7,6 +7,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "infiltracion_bidon_5kg-02.png",
     "etiquetas": [
       {
@@ -25,6 +27,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "membrana_cementicia-25kg-02.png",
     "etiquetas": [
       {
@@ -47,6 +51,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "membrana-techos-20kg-02.png",
     "etiquetas": [
       {
@@ -64,6 +70,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "impregnante-hidrorepelente-20kg-02.png",
     "etiquetas": [
       {
@@ -81,6 +89,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "geo-textil-01.png"
   },
   {
@@ -91,6 +101,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "932.multicapa-flex.png"
   },
   {
@@ -101,6 +113,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "929.pintura-asfaltica-18l-01.png"
   },
   {
@@ -111,6 +125,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "tapa-goteras-4l-01.png"
   },
   {
@@ -121,6 +137,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "membrana-poliuretanica-20kg-02.png",
     "etiquetas": [
       {
@@ -138,6 +156,8 @@
     "familia": "Impermeabilizantes",
     "tipoid": "1",
     "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
     "archivo": "membraba_flexible-25kg-02.png",
     "etiquetas": [
       {
@@ -165,6 +185,8 @@
     "familia": "Reparaci\u00f3n de hormig\u00f3n",
     "tipoid": "2",
     "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "adhesivo-epoxi-1kg-02.png",
     "etiquetas": [
       {
@@ -187,6 +209,8 @@
     "familia": "Reparaci\u00f3n de hormig\u00f3n",
     "tipoid": "2",
     "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "puente-de-adherencia-5kg-02.png",
     "etiquetas": [
       { "id": "8", "descripcion": "Fijar pernos", "productoid": "7" },
@@ -210,6 +234,8 @@
     "familia": "Reparaci\u00f3n de hormig\u00f3n",
     "tipoid": "2",
     "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "rapida-habilitacion-20kg-02.png",
     "etiquetas": [
       {
@@ -232,6 +258,8 @@
     "familia": "Reparaci\u00f3n de hormig\u00f3n",
     "tipoid": "2",
     "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "reparacion-capa-fina-25kg-02.png",
     "etiquetas": [
       {
@@ -254,6 +282,8 @@
     "familia": "Reparaci\u00f3n de hormig\u00f3n",
     "tipoid": "2",
     "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "reparacion-capa-gruesa-25kg-02.png",
     "etiquetas": [
       {
@@ -281,6 +311,8 @@
     "familia": "Reparaci\u00f3n de hormig\u00f3n",
     "tipoid": "2",
     "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "puente-de-adherencia-ac-4kg-01.png"
   },
   {
@@ -291,6 +323,8 @@
     "familia": "Reparaci\u00f3n de hormig\u00f3n",
     "tipoid": "2",
     "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "revestimiento-h-visto-02.png"
   },
   {
@@ -301,6 +335,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "acelerante-de-frague-cc-20kg-02.png",
     "etiquetas": [
       {
@@ -323,6 +359,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "acelerante-de-frague-sc-20kg-02.png",
     "etiquetas": [
       {
@@ -345,6 +383,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "hidrofugo_balde_20kg-02.png",
     "etiquetas": [
       {
@@ -367,6 +407,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "ligante_20kg-02.png",
     "etiquetas": [
       {
@@ -400,6 +442,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "potenciador-latex-20kg-02.png",
     "etiquetas": [
       {
@@ -437,6 +481,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "tanque.png"
   },
   {
@@ -447,6 +493,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "tanque.png"
   },
   {
@@ -457,6 +505,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "tanque.png"
   },
   {
@@ -467,6 +517,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "tanque.png"
   },
   {
@@ -477,6 +529,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "membrana-de-curado_20kg-02.png"
   },
   {
@@ -487,6 +541,8 @@
     "familia": "Aditivos",
     "tipoid": "3",
     "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
     "archivo": "tanque.png"
   },
   {
@@ -497,6 +553,8 @@
     "familia": "Grout",
     "tipoid": "4",
     "tipo": "Grout",
+    "stock": 8,
+    "precio": 100,
     "archivo": "grout-25kg-02.png",
     "etiquetas": [
       {
@@ -514,6 +572,8 @@
     "familia": "Grout",
     "tipoid": "4",
     "tipo": "Grout",
+    "stock": 8,
+    "precio": 100,
     "archivo": "grout-epoxi-familia.png"
   },
   {
@@ -524,6 +584,8 @@
     "familia": "Selladores",
     "tipoid": "6",
     "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "sellador-brik-cen.ch-135-01.png",
     "etiquetas": [
       {
@@ -541,6 +603,8 @@
     "familia": "Selladores",
     "tipoid": "6",
     "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "sellador-brik-cen.cs-350-01.png",
     "etiquetas": [
       {
@@ -558,6 +622,8 @@
     "familia": "Selladores",
     "tipoid": "6",
     "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "sellador-megasel-01.png",
     "etiquetas": [
       {
@@ -580,6 +646,8 @@
     "familia": "Selladores",
     "tipoid": "6",
     "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "sellador-brik-cen_ms_aqua-01.png",
     "etiquetas": [
       {
@@ -602,6 +670,8 @@
     "familia": "Selladores",
     "tipoid": "6",
     "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "sellador-brik-cen_ms-291-01.png",
     "etiquetas": [
       {
@@ -624,6 +694,8 @@
     "familia": "Selladores",
     "tipoid": "6",
     "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "sellador-brik-cen_pm-30-01.png",
     "etiquetas": [
       {
@@ -646,6 +718,8 @@
     "familia": "Selladores",
     "tipoid": "6",
     "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "sellador-suprasell.silic.neut-01.png",
     "etiquetas": [
       {
@@ -663,6 +737,8 @@
     "familia": "Selladores",
     "tipoid": "6",
     "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "brick-cen-sp-128_sinteplast-01.png",
     "etiquetas": [
       {
@@ -680,6 +756,8 @@
     "familia": "Adhesivos",
     "tipoid": "7",
     "tipo": "Adhesivos\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "926.adhesivo-pasta-25kg-01.png"
   },
   {
@@ -690,6 +768,8 @@
     "familia": "Adhesivos",
     "tipoid": "7",
     "tipo": "Adhesivos\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "adhesivo-ladrillos-bloques-manga-02.png",
     "etiquetas": [
       {
@@ -712,6 +792,8 @@
     "familia": "Adhesivos",
     "tipoid": "7",
     "tipo": "Adhesivos\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "781.porcellanato.png"
   },
   {
@@ -722,6 +804,8 @@
     "familia": "Pisos decorativos",
     "tipoid": "5",
     "tipo": "Pisos\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "imprimacion-bidon_4kg-02.png"
   },
   {
@@ -732,6 +816,8 @@
     "familia": "Pisos decorativos",
     "tipoid": "5",
     "tipo": "Pisos\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "laca-protectora-bidon_4kg-02.png"
   },
   {
@@ -742,6 +828,8 @@
     "familia": "Pisos decorativos",
     "tipoid": "5",
     "tipo": "Pisos\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "microcemento_bolsa-20-kg-02.png",
     "etiquetas": [
       {
@@ -769,6 +857,8 @@
     "familia": "Pisos decorativos",
     "tipoid": "5",
     "tipo": "Pisos\r\n",
+    "stock": 8,
+    "precio": 100,
     "archivo": "spray-deck_bolsa-20-kg-02.png",
     "etiquetas": [
       {
@@ -791,6 +881,8 @@
     "familia": "Revoques",
     "tipoid": "13",
     "tipo": "Revoques",
+    "stock": 8,
+    "precio": 100,
     "archivo": "base-coat_bolsa_25kg-02.png"
   },
   {
@@ -801,6 +893,8 @@
     "familia": "Revoques",
     "tipoid": "13",
     "tipo": "Revoques",
+    "stock": 8,
+    "precio": 100,
     "archivo": "935.base-coat_fino_bolsa_20kgcsrender.png"
   },
   {
@@ -811,6 +905,8 @@
     "familia": "Pastinas",
     "tipoid": "84",
     "tipo": "Patinas",
+    "stock": 8,
+    "precio": 100,
     "archivo": "899.pastina_15grande2.png"
   },
   {
@@ -821,6 +917,8 @@
     "familia": "Pastinas",
     "tipoid": "84",
     "tipo": "Patinas",
+    "stock": 8,
+    "precio": 100,
     "archivo": "894.pastina-acrilica-01.png"
   },
   {
@@ -831,6 +929,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "11",
     "tipo": "Cementicios",
+    "stock": 8,
+    "precio": 100,
     "archivo": "hd-300-endurecedor-superficial-02.png"
   },
   {
@@ -841,6 +941,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "11",
     "tipo": "Cementicios",
+    "stock": 8,
+    "precio": 100,
     "archivo": "f-mf-328-mortero-fibrado-02.png"
   },
   {
@@ -851,6 +953,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "11",
     "tipo": "Cementicios",
+    "stock": 8,
+    "precio": 100,
     "archivo": "sp-24-sellador-superficial-_a-02.png"
   },
   {
@@ -861,6 +965,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "8",
     "tipo": "Epoxi",
+    "stock": 8,
+    "precio": 100,
     "archivo": "f-epoxi-563-carga-antiderrapante-02.png"
   },
   {
@@ -871,6 +977,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "8",
     "tipo": "Epoxi",
+    "stock": 8,
+    "precio": 100,
     "archivo": "f-epoxi-563-autonivelante-02.png"
   },
   {
@@ -881,6 +989,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "8",
     "tipo": "Epoxi",
+    "stock": 8,
+    "precio": 100,
     "archivo": "f-epoxi-563-mortero-02.png"
   },
   {
@@ -891,6 +1001,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "8",
     "tipo": "Epoxi",
+    "stock": 8,
+    "precio": 100,
     "archivo": "f-epoxi-563-multiproposito-02.png"
   },
   {
@@ -901,6 +1013,8 @@
     "familia": "Complementos",
     "tipoid": "85",
     "tipo": "General",
+    "stock": 8,
+    "precio": 100,
     "archivo": "923.limpiador-multifuncion-5kg--01.png"
   },
   {
@@ -911,6 +1025,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "9",
     "tipo": "Poliuretano-Cemento",
+    "stock": 8,
+    "precio": 100,
     "archivo": "f-pu-620-hd-mortero-02.png"
   },
   {
@@ -921,6 +1037,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "9",
     "tipo": "Poliuretano-Cemento",
+    "stock": 8,
+    "precio": 100,
     "archivo": "f-pu-621-autonivelante-02.png"
   },
   {
@@ -931,6 +1049,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "9",
     "tipo": "Poliuretano-Cemento",
+    "stock": 8,
+    "precio": 100,
     "archivo": "f-pu-631-top-coat-02.png"
   },
   {
@@ -941,6 +1061,8 @@
     "familia": "Pisos de alto desempe\u00f1o",
     "tipoid": "12",
     "tipo": "Primers",
+    "stock": 8,
+    "precio": 100,
     "archivo": "f-primer-multiproposito-02.png"
   }
 ]

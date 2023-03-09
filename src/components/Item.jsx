@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 import { Ratio } from 'react-bootstrap';
 
 const Item = ({producto}) => {
-  const {id,nombre,descripcion1,familiaid,familia,tipoid,tipo,archivo} = producto;
+  const {id,nombre,descripcion1,familiaid,familia,tipoid,tipo,stock,precio,archivo} = producto;
   let rutaImagen = typeof(archivo) === "undefined" ? `https://sinteplastconstruccion.com.ar/assets/img/noimg.png` : `https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/photos/h300/${archivo}`;
   return (
     <Col lg={3} md={4} sm={6} className="d-flex align-items-strech pt-4">
@@ -18,6 +18,7 @@ const Item = ({producto}) => {
           </Ratio>
           <Card.Title>{nombre}</Card.Title>
           <Card.Text>{descripcion1.replace(/(<([^>]+)>)/gi,"")}</Card.Text>
+          <Card.Text>{`Precio: $${precio} / Stock: ${stock}`}</Card.Text>
             <Link to={`/producto/${nombre}`}>
               <Button variant="primary">
                 Ver detalle

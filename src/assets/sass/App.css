@@ -10826,6 +10826,12 @@ textarea.form-control-lg {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
 }
 
+#root {
+  position: relative;
+  padding-bottom: 10rem;
+  min-height: 100vh;
+}
+
 .ilc {
   padding-top: 20vh;
   background: #CCC;
@@ -10836,4 +10842,35 @@ textarea.form-control-lg {
   margin: auto;
   font-size: 3rem;
   padding-bottom: 3rem;
+}
+
+.itendetails .comprar .boton {
+  cursor: pointer;
+  -moz-user-select: none;
+       user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+.itendetails .comprar .boton:hover {
+  opacity: 0.5;
+}
+
+.itemList {
+  padding-bottom: 2rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+.footer .logoFooter {
+  height: 7rem;
+}
+
+.figure,
+.tooltip {
+  -moz-user-select: none;
+       user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
 }/*# sourceMappingURL=App.css.map */

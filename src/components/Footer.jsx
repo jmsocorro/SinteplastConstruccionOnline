@@ -1,25 +1,22 @@
+import { useContext } from "react";
 import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Ratio } from 'react-bootstrap';
 import { Figure } from 'react-bootstrap';
+import { CartContext } from "../context/StateCartContext";
 
 const Footer = () => {
-  return (
-    <Container fluid className='footer'>
+    const {cartDetails, dominio} = useContext(CartContext);
+    console.log(cartDetails, dominio)
+    return (
+    <Container fluid className='footer bg-secondary'>
         <Row>
             <Col md={6} sm={12}>
-                <Ratio aspectRatio="16x9">
-                <div className='d-flex align-items-center'>
-                                <Figure>
-                                    <Figure.Image
-                                        src='/src/assets/img/logopos.svg'
-                                        width='100%'
-                                        height='100%'
-                                        alt='Sinteplast Construcción Logo'
-                                    />
-                                </Figure>
-                            </div>
+                <Ratio aspectRatio={1 / 4}>
+                    <div className='logoFooter d-flex align-items-center p-3'>
+                        <img className="w-100 h-100" src="/src/assets/img/logoneg.svg" alt="Sinteplast Construcción Logo" />
+                    </div>
                 </Ratio>
             </Col>
         </Row>

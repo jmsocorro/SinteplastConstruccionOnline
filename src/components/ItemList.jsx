@@ -8,7 +8,7 @@ const ItemList = ({productosFiltrados}) => {
 
   return (
     <Container>
-      <Row className="IL">
+      <Row className="itemList">
         {productosFiltrados.map((producto) => {
           return <Item key={producto.id} producto={producto}/>;
         })}
