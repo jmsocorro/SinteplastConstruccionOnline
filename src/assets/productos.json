@@ -1,0 +1,1068 @@
+[
+  {
+    "id": "31",
+    "nombre": "Infiltraci\u00f3n",
+    "descripcion1": "Impermeabilizante para humedad ascendente",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "infiltracion_bidon_5kg-02.png",
+    "etiquetas": [
+      {
+        "id": "2",
+        "descripcion": "Humedad de cimientos",
+        "productoid": "31"
+      },
+      { "id": "3", "descripcion": "Humedad ascendente", "productoid": "31" }
+    ]
+  },
+  {
+    "id": "2",
+    "nombre": "Membrana Cementicia",
+    "descripcion1": "Mortero impermeabilizante monocomponente",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "membrana_cementicia-25kg-02.png",
+    "etiquetas": [
+      {
+        "id": "4",
+        "descripcion": "Impermeabilizar piletas y tanques",
+        "productoid": "2"
+      },
+      {
+        "id": "5",
+        "descripcion": "Impermeabilizar superficies enterradas (subsuelos, s\u00f3tanos, fosas)",
+        "productoid": "2"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "nombre": "Membrana Techos",
+    "descripcion1": "Impermeabilizante acr\u00edlico para techados",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "membrana-techos-20kg-02.png",
+    "etiquetas": [
+      {
+        "id": "1",
+        "descripcion": "Impermeabilizar techos y cubiertas",
+        "productoid": "5"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "nombre": "Impregnante Hidro-repelente",
+    "descripcion1": "",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "impregnante-hidrorepelente-20kg-02.png",
+    "etiquetas": [
+      {
+        "id": "20",
+        "descripcion": "Impermeabilizar ladrillo y bloques a la vista",
+        "productoid": "1"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "nombre": "Manto Geotextil",
+    "descripcion1": "<div>Refuerzo de impermeabilizaciones de techos<br></div>",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "geo-textil-01.png"
+  },
+  {
+    "id": "1154",
+    "nombre": "Multicapa Flex",
+    "descripcion1": "<div>Impermeabilizante en rollo no transitable.<br></div>",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "932.multicapa-flex.png"
+  },
+  {
+    "id": "1152",
+    "nombre": "Pintura Asf\u00e1ltica",
+    "descripcion1": "<div>Imprimaci\u00f3n asf\u00e1ltica impermeable.<br></div>",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "929.pintura-asfaltica-18l-01.png"
+  },
+  {
+    "id": "53",
+    "nombre": "Tapagoteras",
+    "descripcion1": "<div>Sellador l\u00edquido incoloro de goteras<br></div>",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "tapa-goteras-4l-01.png"
+  },
+  {
+    "id": "3",
+    "nombre": "Membrana con Poliuretano",
+    "descripcion1": "Impermeabilizante con poliuretano para cubiertas",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "membrana-poliuretanica-20kg-02.png",
+    "etiquetas": [
+      {
+        "id": "1",
+        "descripcion": "Impermeabilizar techos y cubiertas",
+        "productoid": "3"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "nombre": "Membrana Flexible",
+    "descripcion1": "Mortero Impermeabilizante el\u00e1stico bicomponente",
+    "familiaid": "1",
+    "familia": "Impermeabilizantes",
+    "tipoid": "1",
+    "tipo": "Impermeabilizantes",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "membraba_flexible-25kg-02.png",
+    "etiquetas": [
+      {
+        "id": "4",
+        "descripcion": "Impermeabilizar piletas y tanques",
+        "productoid": "4"
+      },
+      {
+        "id": "5",
+        "descripcion": "Impermeabilizar superficies enterradas (subsuelos, s\u00f3tanos, fosas)",
+        "productoid": "4"
+      },
+      {
+        "id": "6",
+        "descripcion": "Impermeabilizar estructuras con movimientos",
+        "productoid": "4"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "nombre": "Adhesivo Epoxi",
+    "descripcion1": "Adhesivo tixotr\u00f3pico multiuso para la construcci\u00f3n",
+    "familiaid": "2",
+    "familia": "Reparaci\u00f3n de hormig\u00f3n",
+    "tipoid": "2",
+    "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "adhesivo-epoxi-1kg-02.png",
+    "etiquetas": [
+      {
+        "id": "7",
+        "descripcion": "Adherir elementos en la construcci\u00f3n",
+        "productoid": "6"
+      },
+      {
+        "id": "9",
+        "descripcion": "Reparar bordes y esquinas",
+        "productoid": "6"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "nombre": "Puente de Adherencia",
+    "descripcion1": "Epoxi para la uni\u00f3n estructural de hormigones",
+    "familiaid": "2",
+    "familia": "Reparaci\u00f3n de hormig\u00f3n",
+    "tipoid": "2",
+    "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "puente-de-adherencia-5kg-02.png",
+    "etiquetas": [
+      { "id": "8", "descripcion": "Fijar pernos", "productoid": "7" },
+      {
+        "id": "9",
+        "descripcion": "Reparar bordes y esquinas",
+        "productoid": "7"
+      },
+      {
+        "id": "10",
+        "descripcion": "Unir hormig\u00f3n fresco con hormig\u00f3n endurecido",
+        "productoid": "7"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "nombre": "R\u00e1pida Habilitaci\u00f3n",
+    "descripcion1": "Mortero de Reparaci\u00f3n de pisos de hormig\u00f3n",
+    "familiaid": "2",
+    "familia": "Reparaci\u00f3n de hormig\u00f3n",
+    "tipoid": "2",
+    "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "rapida-habilitacion-20kg-02.png",
+    "etiquetas": [
+      {
+        "id": "11",
+        "descripcion": "Reparar pisos y carpetas",
+        "productoid": "8"
+      },
+      {
+        "id": "12",
+        "descripcion": "Reparaci\u00f3n r\u00e1pida ",
+        "productoid": "8"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "nombre": "Reparaci\u00f3n Capa Fina",
+    "descripcion1": "Mortero de Reparaci\u00f3n de hormig\u00f3n en capa fina",
+    "familiaid": "2",
+    "familia": "Reparaci\u00f3n de hormig\u00f3n",
+    "tipoid": "2",
+    "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "reparacion-capa-fina-25kg-02.png",
+    "etiquetas": [
+      {
+        "id": "13",
+        "descripcion": "Reparaci\u00f3n de estructuras de hormig\u00f3n",
+        "productoid": "9"
+      },
+      {
+        "id": "14",
+        "descripcion": "Reparar nidos de abeja",
+        "productoid": "9"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "nombre": "Reparaci\u00f3n Capa Gruesa",
+    "descripcion1": "Mortero de Reparaci\u00f3n de hormig\u00f3n en capa gruesa",
+    "familiaid": "2",
+    "familia": "Reparaci\u00f3n de hormig\u00f3n",
+    "tipoid": "2",
+    "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "reparacion-capa-gruesa-25kg-02.png",
+    "etiquetas": [
+      {
+        "id": "13",
+        "descripcion": "Reparaci\u00f3n de estructuras de hormig\u00f3n",
+        "productoid": "10"
+      },
+      {
+        "id": "14",
+        "descripcion": "Reparar nidos de abeja",
+        "productoid": "10"
+      },
+      {
+        "id": "15",
+        "descripcion": "Reparar fisuras est\u00e1ticas ",
+        "productoid": "10"
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "nombre": "Puente de Adherencia Anticorrosivo",
+    "descripcion1": "<div>Epoxi para la uni\u00f3n estructural de hormigones<br></div>",
+    "familiaid": "2",
+    "familia": "Reparaci\u00f3n de hormig\u00f3n",
+    "tipoid": "2",
+    "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "puente-de-adherencia-ac-4kg-01.png"
+  },
+  {
+    "id": "43",
+    "nombre": "Revestimiento para Hormigon Visto",
+    "descripcion1": "<div>Mortero cementicio para la reparaci\u00f3n est\u00e9tica de hormigones vistos<br></div>",
+    "familiaid": "2",
+    "familia": "Reparaci\u00f3n de hormig\u00f3n",
+    "tipoid": "2",
+    "tipo": "Reparaci\u00f3n de hormig\u00f3n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "revestimiento-h-visto-02.png"
+  },
+  {
+    "id": "11",
+    "nombre": "Acelerante de Frag\u00fce CC",
+    "descripcion1": "Con cloruros para morteros y hormigones simples",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "acelerante-de-frague-cc-20kg-02.png",
+    "etiquetas": [
+      {
+        "id": "16",
+        "descripcion": "Acelerar al fraguado en mortero y hormig\u00f3n",
+        "productoid": "11"
+      },
+      {
+        "id": "17",
+        "descripcion": "Evitar el congelamiento en mezclas cementicias",
+        "productoid": "11"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "nombre": "Acelerante de Frag\u00fce SC",
+    "descripcion1": "Sin cloruros para morteros y hormigones armados",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "acelerante-de-frague-sc-20kg-02.png",
+    "etiquetas": [
+      {
+        "id": "16",
+        "descripcion": "Acelerar al fraguado en mortero y hormig\u00f3n",
+        "productoid": "12"
+      },
+      {
+        "id": "17",
+        "descripcion": "Evitar el congelamiento en mezclas cementicias",
+        "productoid": "12"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "nombre": "Hidr\u00f3fugo",
+    "descripcion1": "Aditivo Hidr\u00f3fugo para morteros",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "hidrofugo_balde_20kg-02.png",
+    "etiquetas": [
+      {
+        "id": "18",
+        "descripcion": "Ejecutar Capas Aisladoras",
+        "productoid": "13"
+      },
+      {
+        "id": "19",
+        "descripcion": "Caj\u00f3n hidr\u00f3fugo",
+        "productoid": "13"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "nombre": "Ligante",
+    "descripcion1": "Aditivo vin\u00edlico multiuso",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "ligante_20kg-02.png",
+    "etiquetas": [
+      {
+        "id": "21",
+        "descripcion": "Mejorar la calidad de las mezclas cementicias",
+        "productoid": "14"
+      },
+      {
+        "id": "25",
+        "descripcion": "Mejorar la adherencia en pinturas a la cal",
+        "productoid": "14"
+      },
+      {
+        "id": "26",
+        "descripcion": "Imprimar superficies porosas",
+        "productoid": "14"
+      },
+      { "id": "27", "descripcion": "Sellar poros", "productoid": "14" },
+      {
+        "id": "28",
+        "descripcion": "Mejorar la estabilidad en revoques.",
+        "productoid": "14"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "nombre": "Potenciador L\u00e1tex",
+    "descripcion1": "Reforzador de Morteros",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "potenciador-latex-20kg-02.png",
+    "etiquetas": [
+      {
+        "id": "21",
+        "descripcion": "Mejorar la calidad de las mezclas cementicias",
+        "productoid": "15"
+      },
+      {
+        "id": "22",
+        "descripcion": "Agente de uni\u00f3n en carpetas ",
+        "productoid": "15"
+      },
+      {
+        "id": "23",
+        "descripcion": "Reforzar morteros ",
+        "productoid": "15"
+      },
+      {
+        "id": "24",
+        "descripcion": "Realizar salpicados",
+        "productoid": "15"
+      },
+      {
+        "id": "28",
+        "descripcion": "Mejorar la estabilidad en revoques.",
+        "productoid": "15"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "nombre": "Anticongelante CC",
+    "descripcion1": "<div>Aditivo l\u00edquido para morteros y hormigones simples<br></div>",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "tanque.png"
+  },
+  {
+    "id": "46",
+    "nombre": "Anticongelante SC",
+    "descripcion1": "<div>Aditivo l\u00edquido para morteros y hormigones armados<br></div>",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "tanque.png"
+  },
+  {
+    "id": "49",
+    "nombre": "Desmoldante madera",
+    "descripcion1": "<div>Desmoldante l\u00edquido protector de encofrados de madera.<br></div>",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "tanque.png"
+  },
+  {
+    "id": "50",
+    "nombre": "Desmoldante para metal",
+    "descripcion1": "<div>Desmoldante l\u00edquido protector de encofrados de metal.<br></div>",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "tanque.png"
+  },
+  {
+    "id": "52",
+    "nombre": "Membrana de curado base agua",
+    "descripcion1": "<div>Compuesto l\u00edquido base acuosa para la formaci\u00f3n de membranas\nde curado para hormig\u00f3n.<o:p></o:p></div>",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "membrana-de-curado_20kg-02.png"
+  },
+  {
+    "id": "51",
+    "nombre": "Membrana de curado base solvente",
+    "descripcion1": "<div>Compuesto l\u00edquido solvente para la formaci\u00f3n de membranas de curado para hormig\u00f3n.<br></div>",
+    "familiaid": "3",
+    "familia": "Aditivos",
+    "tipoid": "3",
+    "tipo": "Aditivos",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "tanque.png"
+  },
+  {
+    "id": "16",
+    "nombre": "Grout",
+    "descripcion1": "Mortero fluido para anclaje y nivelaci\u00f3n",
+    "familiaid": "4",
+    "familia": "Grout",
+    "tipoid": "4",
+    "tipo": "Grout",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "grout-25kg-02.png",
+    "etiquetas": [
+      {
+        "id": "29",
+        "descripcion": "Anclar m\u00e1quinas y herramientas",
+        "productoid": "16"
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "nombre": "Grout Epoxi",
+    "descripcion1": "<div>Mortero Epoxi para grouting de alto desempe\u00f1o<br></div>",
+    "familiaid": "4",
+    "familia": "Grout",
+    "tipoid": "4",
+    "tipo": "Grout",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "grout-epoxi-familia.png"
+  },
+  {
+    "id": "21",
+    "nombre": "Adhesivo de Montaje",
+    "descripcion1": "Adhesivo multiuso en base agua",
+    "familiaid": "6",
+    "familia": "Selladores",
+    "tipoid": "6",
+    "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "sellador-brik-cen.ch-135-01.png",
+    "etiquetas": [
+      {
+        "id": "35",
+        "descripcion": "Adherir y montar elementos en el hogar",
+        "productoid": "21"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "nombre": "Alta Temperatura",
+    "descripcion1": "Sellador de Silicona Neutro resistente a altas temperaturas",
+    "familiaid": "6",
+    "familia": "Selladores",
+    "tipoid": "6",
+    "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "sellador-brik-cen.cs-350-01.png",
+    "etiquetas": [
+      {
+        "id": "36",
+        "descripcion": "Sellar juntas en estufas, calefones y cocinas",
+        "productoid": "22"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "nombre": "Megasel - Sellador de silicona",
+    "descripcion1": "Sellador de silicona ac\u00e9tica con funguicida",
+    "familiaid": "6",
+    "familia": "Selladores",
+    "tipoid": "6",
+    "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "sellador-megasel-01.png",
+    "etiquetas": [
+      {
+        "id": "38",
+        "descripcion": "Sellar ba\u00f1os, inodoros, ba\u00f1aderas, bachas",
+        "productoid": "25"
+      },
+      {
+        "id": "41",
+        "descripcion": "Sellar carpinter\u00edas met\u00e1licas o de PVC",
+        "productoid": "25"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "nombre": "MS Aqua - Especial Piscinas",
+    "descripcion1": "Sellador el\u00e1stico de nueva generaci\u00f3n para piscinas",
+    "familiaid": "6",
+    "familia": "Selladores",
+    "tipoid": "6",
+    "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "sellador-brik-cen_ms_aqua-01.png",
+    "etiquetas": [
+      {
+        "id": "4",
+        "descripcion": "Impermeabilizar piletas y tanques",
+        "productoid": "23"
+      },
+      {
+        "id": "39",
+        "descripcion": "Sellar y pegar en piletas y espacios sumergidos",
+        "productoid": "23"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "nombre": "MS Flex",
+    "descripcion1": "Sellador el\u00e1stico de nueva generaci\u00f3n para juntas",
+    "familiaid": "6",
+    "familia": "Selladores",
+    "tipoid": "6",
+    "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "sellador-brik-cen_ms-291-01.png",
+    "etiquetas": [
+      {
+        "id": "42",
+        "descripcion": "Sellar juntas y fisuras",
+        "productoid": "29"
+      },
+      {
+        "id": "43",
+        "descripcion": "Sellar encuentros en paredes y techos",
+        "productoid": "29"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "nombre": "Poliuretano Silanizado",
+    "descripcion1": "Sellador el\u00e1stico para juntas",
+    "familiaid": "6",
+    "familia": "Selladores",
+    "tipoid": "6",
+    "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "sellador-brik-cen_pm-30-01.png",
+    "etiquetas": [
+      {
+        "id": "42",
+        "descripcion": "Sellar juntas y fisuras",
+        "productoid": "30"
+      },
+      {
+        "id": "43",
+        "descripcion": "Sellar encuentros en paredes y techos",
+        "productoid": "30"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "nombre": "Suprasell - Sellador de silicona",
+    "descripcion1": "Sellador de silicona neutra",
+    "familiaid": "6",
+    "familia": "Selladores",
+    "tipoid": "6",
+    "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "sellador-suprasell.silic.neut-01.png",
+    "etiquetas": [
+      {
+        "id": "40",
+        "descripcion": "Sellar ventanas y cerramientos ",
+        "productoid": "26"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "nombre": "Espuma de Poliuretano",
+    "descripcion1": "Espuma hidroexpansible para rellenos",
+    "familiaid": "6",
+    "familia": "Selladores",
+    "tipoid": "6",
+    "tipo": "Selladores\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "brick-cen-sp-128_sinteplast-01.png",
+    "etiquetas": [
+      {
+        "id": "37",
+        "descripcion": "Rellenar huecos y espacios",
+        "productoid": "24"
+      }
+    ]
+  },
+  {
+    "id": "1151",
+    "nombre": "Adhesivo Pasta",
+    "descripcion1": "<div>Para cer\u00e1micos y porcellanatos<br></div>",
+    "familiaid": "7",
+    "familia": "Adhesivos",
+    "tipoid": "7",
+    "tipo": "Adhesivos\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "926.adhesivo-pasta-25kg-01.png"
+  },
+  {
+    "id": "27",
+    "nombre": "Adhesivo para ladrillos y bloques",
+    "descripcion1": "Mortero acr\u00edlico para el asentamiento de mampuestos",
+    "familiaid": "7",
+    "familia": "Adhesivos",
+    "tipoid": "7",
+    "tipo": "Adhesivos\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "adhesivo-ladrillos-bloques-manga-02.png",
+    "etiquetas": [
+      {
+        "id": "30",
+        "descripcion": "Levantar paredes de ladrillo",
+        "productoid": "27"
+      },
+      {
+        "id": "31",
+        "descripcion": "Mezcla de asiento para ladrillos",
+        "productoid": "27"
+      }
+    ]
+  },
+  {
+    "id": "1129",
+    "nombre": "Adhesivo Porcellanato",
+    "descripcion1": "<div>Adhesivo para piezas de baja, media y alta absorci\u00f3n.&nbsp;</div>",
+    "familiaid": "7",
+    "familia": "Adhesivos",
+    "tipoid": "7",
+    "tipo": "Adhesivos\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "781.porcellanato.png"
+  },
+  {
+    "id": "17",
+    "nombre": "Imprimaci\u00f3n Acuosa",
+    "descripcion1": "Imprimante para revestimientos cementicios",
+    "familiaid": "5",
+    "familia": "Pisos decorativos",
+    "tipoid": "5",
+    "tipo": "Pisos\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "imprimacion-bidon_4kg-02.png"
+  },
+  {
+    "id": "18",
+    "nombre": "Laca Protectora",
+    "descripcion1": "Protector para Microcemento y Spray Deck",
+    "familiaid": "5",
+    "familia": "Pisos decorativos",
+    "tipoid": "5",
+    "tipo": "Pisos\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "laca-protectora-bidon_4kg-02.png"
+  },
+  {
+    "id": "19",
+    "nombre": "Microcemento",
+    "descripcion1": "Revestimiento cementicio para pisos y paredes",
+    "familiaid": "5",
+    "familia": "Pisos decorativos",
+    "tipoid": "5",
+    "tipo": "Pisos\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "microcemento_bolsa-20-kg-02.png",
+    "etiquetas": [
+      {
+        "id": "32",
+        "descripcion": "Revestir y decorar pisos y mesadas",
+        "productoid": "19"
+      },
+      {
+        "id": "33",
+        "descripcion": "Ejecutar un piso cementicio decorativo",
+        "productoid": "19"
+      },
+      {
+        "id": "34",
+        "descripcion": "Alisado cementicio",
+        "productoid": "19"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "nombre": "Spray Deck",
+    "descripcion1": "Revestimiento cementicio \u00a0texturado para pisos y paredes",
+    "familiaid": "5",
+    "familia": "Pisos decorativos",
+    "tipoid": "5",
+    "tipo": "Pisos\r\n",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "spray-deck_bolsa-20-kg-02.png",
+    "etiquetas": [
+      {
+        "id": "32",
+        "descripcion": "Revestir y decorar pisos y mesadas",
+        "productoid": "20"
+      },
+      {
+        "id": "33",
+        "descripcion": "Ejecutar un piso cementicio decorativo",
+        "productoid": "20"
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "nombre": "Base Coat",
+    "descripcion1": "<div>Nivelador de superficies en capa fina.<br></div>",
+    "familiaid": "9",
+    "familia": "Revoques",
+    "tipoid": "13",
+    "tipo": "Revoques",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "base-coat_bolsa_25kg-02.png"
+  },
+  {
+    "id": "1155",
+    "nombre": "Base Coat Fino",
+    "descripcion1": "<div>Revoque monocomponente nivelador de superficies<br></div>",
+    "familiaid": "9",
+    "familia": "Revoques",
+    "tipoid": "13",
+    "tipo": "Revoques",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "935.base-coat_fino_bolsa_20kgcsrender.png"
+  },
+  {
+    "id": "1137",
+    "nombre": "Pastina",
+    "descripcion1": "<div><div>Mortero de alta performance para el tomado de juntas<br></div></div>",
+    "familiaid": "27",
+    "familia": "Pastinas",
+    "tipoid": "84",
+    "tipo": "Patinas",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "899.pastina_15grande2.png"
+  },
+  {
+    "id": "1138",
+    "nombre": "Pastina acr\u00edlica",
+    "descripcion1": "<div><div><span style=\"font-size: 13pt; line-height: 107%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">Para el tomado de juntas en pisos y revestimiento.&nbsp;<o:p></o:p></span></div></div>",
+    "familiaid": "27",
+    "familia": "Pastinas",
+    "tipoid": "84",
+    "tipo": "Patinas",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "894.pastina-acrilica-01.png"
+  },
+  {
+    "id": "39",
+    "nombre": "HD 300 Endurecedor Superficial",
+    "descripcion1": "Endurecedor superficial para pisos de hormig\u00f3n sometidos a tr\u00e1nsito intenso.",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "11",
+    "tipo": "Cementicios",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "hd-300-endurecedor-superficial-02.png"
+  },
+  {
+    "id": "41",
+    "nombre": "MF 328 Mortero Fibrado",
+    "descripcion1": "Mortero de alta resistencia al desgaste para capa terminal de pisos de hormig\u00f3n.",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "11",
+    "tipo": "Cementicios",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "f-mf-328-mortero-fibrado-02.png"
+  },
+  {
+    "id": "40",
+    "nombre": "SP 24 Sellador Superficial",
+    "descripcion1": "Sellador y Consolidador superficial transparente para pisos.",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "11",
+    "tipo": "Cementicios",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "sp-24-sellador-superficial-_a-02.png"
+  },
+  {
+    "id": "38",
+    "nombre": "563 Epoxi Antiderrapante",
+    "descripcion1": "Revestimiento Epoxi Antiderrapante para lograr superficies antideslizantes.",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "8",
+    "tipo": "Epoxi",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "f-epoxi-563-carga-antiderrapante-02.png"
+  },
+  {
+    "id": "37",
+    "nombre": "563 Epoxi Autonivelante",
+    "descripcion1": "Revestimiento Epoxi Autonivelante de bajo espesor para la protecci\u00f3n de pisos de hormig\u00f3n.",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "8",
+    "tipo": "Epoxi",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "f-epoxi-563-autonivelante-02.png"
+  },
+  {
+    "id": "36",
+    "nombre": "563 Epoxi Mortero",
+    "descripcion1": "Revestimiento Epoxi Mortero de alta resistencia mec\u00e1nica.",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "8",
+    "tipo": "Epoxi",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "f-epoxi-563-mortero-02.png"
+  },
+  {
+    "id": "35",
+    "nombre": "563 Epoxi Multiprop\u00f3sito",
+    "descripcion1": "Revestimiento Epoxi de dos componentes",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "8",
+    "tipo": "Epoxi",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "f-epoxi-563-multiproposito-02.png"
+  },
+  {
+    "id": "1150",
+    "nombre": "Limpiador Multifunci\u00f3n",
+    "descripcion1": "<div>Limpiador final de obra y tratamiento pre-impermeabilizaci\u00f3n</div>",
+    "familiaid": "28",
+    "familia": "Complementos",
+    "tipoid": "85",
+    "tipo": "General",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "923.limpiador-multifuncion-5kg--01.png"
+  },
+  {
+    "id": "32",
+    "nombre": "Pu 620 HD Mortero",
+    "descripcion1": "Revestimiento PU mortero de alta resistencia mec\u00e1nica para pisos de hormig\u00f3n.",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "9",
+    "tipo": "Poliuretano-Cemento",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "f-pu-620-hd-mortero-02.png"
+  },
+  {
+    "id": "33",
+    "nombre": "PU 621 SL Autonivelante",
+    "descripcion1": "Revestimiento PU Autonivelante de uso medio a intensivo para pisos de hormig\u00f3n.",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "9",
+    "tipo": "Poliuretano-Cemento",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "f-pu-621-autonivelante-02.png"
+  },
+  {
+    "id": "34",
+    "nombre": "PU 631 Top Coat",
+    "descripcion1": "Revestimiento/Pintura PU libre de solventes para la protecci\u00f3n de pisos de hormig\u00f3n.",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "9",
+    "tipo": "Poliuretano-Cemento",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "f-pu-631-top-coat-02.png"
+  },
+  {
+    "id": "42",
+    "nombre": "561 Primer Multiprop\u00f3sito",
+    "descripcion1": "<div>Imprimaci\u00f3n Epoxi bi-componente multiprop\u00f3sito 100% s\u00f3lidos.<br></div>",
+    "familiaid": "8",
+    "familia": "Pisos de alto desempe\u00f1o",
+    "tipoid": "12",
+    "tipo": "Primers",
+    "stock": 8,
+    "precio": 100,
+    "archivo": "f-primer-multiproposito-02.png"
+  }
+]
