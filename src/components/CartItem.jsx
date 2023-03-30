@@ -18,11 +18,6 @@ const CartItem = ({ producto, prodIndex }) => {
     const {
         id,
         nombre,
-        descripcion1,
-        familiaid,
-        familia,
-        tipoid,
-        tipo,
         stock,
         precio,
         archivo,
@@ -49,7 +44,7 @@ const CartItem = ({ producto, prodIndex }) => {
     };
 
     return (
-        <Row className={`producto${id} pt-4 pb-1 border-bottom`}>
+        <Row className={`producto producto${id} pt-4 pb-1 border-bottom`}>
             <Col
                 lg={1}
                 md={2}
@@ -179,7 +174,7 @@ const CartItem = ({ producto, prodIndex }) => {
                         </span>
                     </OverlayTrigger>
                 </div>
-                <div className="sotck p-2 text-center">{`Disponibles: ${stock}`}</div>
+                <div className="disponibles sotck p-2 text-center">{`Disponibles: ${stock}`}</div>
             </Col>
             <Col
                 lg={2}

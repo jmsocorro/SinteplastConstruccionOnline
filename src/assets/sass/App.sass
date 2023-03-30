@@ -51,3 +51,26 @@
                     content: attr(data-titulo)
                     font-weight: bold
                     font-size: 120%
+
+.carro
+    .formularioPedido,
+    .modificar
+        display: none
+        
+    &.estado1
+        .formularioPedido,
+        .modificar
+            display: block
+        .finalizar
+            display: none
+        .producto
+            .comprar
+                border: none !important
+                &::after
+                    display: inline-block
+                    content: 'unidades'
+                    font-size: 70%
+                .boton
+                    display: none
+            .disponibles
+                display: none

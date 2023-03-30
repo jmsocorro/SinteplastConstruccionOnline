@@ -27,7 +27,7 @@ const CartForm = () => {
     };
 
     return (
-        <div>
+        <div className="formularioPedido">
             <form onSubmit={envioOrden}>
                 <input
                     type="text"

@@ -1,12 +1,12 @@
 import { useContext } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 import { ProvContextoCarro } from "../context/EstadoCarroContexto";
 import CartForm from "./CartForm";
 import CartItem from "./CartItem";
 
 const Cart = () => {
-    const { carro, total } = useContext(ProvContextoCarro);
+    const { carro, total, estadoPedido, asignarEstado} = useContext(ProvContextoCarro);
 
     if (carro.length === 0) {
         return (
@@ -20,7 +20,7 @@ const Cart = () => {
         );
     } else {
         return (
-            <Container>
+            <Container className={`carro estado${estadoPedido}`}>
                 <Row className="pt-4">
                     <Col sm={12}>
                         <h1 className="text-center">Tu pedido</h1>
@@ -51,6 +51,16 @@ const Cart = () => {
                         className="d-flex align-items-center justify-content-center "
                     >
                         <h1 className="text-center">{`$${total}`}</h1>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Button className="finalizar w-100 my-3" variant="primary" size="lg" onClick={() => asignarEstado(1)}>
+                            FINALIZAR PEDIDO
+                        </Button>
+                        <Button className="modificar w-100 my-3" variant="secondary" size="lg" onClick={() => asignarEstado(0)}>
+                            Modificar PEDIDO
+                        </Button>
                     </Col>
                 </Row>
                 <Row>

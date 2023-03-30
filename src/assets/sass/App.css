@@ -10880,4 +10880,30 @@ textarea.form-control-lg {
   content: attr(data-titulo);
   font-weight: bold;
   font-size: 120%;
+}
+
+.carro .formularioPedido,
+.carro .modificar {
+  display: none;
+}
+.carro.estado1 .formularioPedido,
+.carro.estado1 .modificar {
+  display: block;
+}
+.carro.estado1 .finalizar {
+  display: none;
+}
+.carro.estado1 .producto .comprar {
+  border: none !important;
+}
+.carro.estado1 .producto .comprar::after {
+  display: inline-block;
+  content: "unidades";
+  font-size: 70%;
+}
+.carro.estado1 .producto .comprar .boton {
+  display: none;
+}
+.carro.estado1 .producto .disponibles {
+  display: none;
 }/*# sourceMappingURL=App.css.map */
