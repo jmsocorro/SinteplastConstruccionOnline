@@ -1,12 +1,8 @@
-import {
-    Col,
-    Row,
-    Figure,
-    Ratio,
-} from "react-bootstrap";
+import { Col, Row, Figure, Ratio } from "react-bootstrap";
 
-const PedidoItem = () => {
+const PedidoItem = ({ producto, prodIndex }) => {
     // traigo el producto por props
+    console.log(producto);
     const { id, nombre, precio, archivo, unidades } = producto;
     let rutaImagen =
         typeof archivo === "undefined"
@@ -52,9 +48,7 @@ const PedidoItem = () => {
                 className="d-flex align-items-center justify-content-center flex-column"
             >
                 <div className="comprar p-2 border border-2 border-primary rounded-4 d-flex align-items-center justify-content-center fs-3">
-                    <div className="d-inline-block p-2 fs-4">
-                        {unidades}
-                    </div>
+                    <div className="d-inline-block p-2 fs-4">{unidades}</div>
                 </div>
             </Col>
             <Col
