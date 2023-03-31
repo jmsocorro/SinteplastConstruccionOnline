@@ -24,15 +24,20 @@ const Item = ({ producto }) => {
             <Card className={`producto${id} w-100`}>
                 <Card.Body>
                     <Ratio aspectRatio="1x1">
-                        <div className="d-flex align-items-center">
-                            <Card.Img variant="top" src={rutaImagen} />
-                        </div>
+                        <Link to={`/producto/${id}`}>
+                            <div className="d-flex align-items-center">
+                                <Card.Img variant="top" src={rutaImagen} />
+                            </div>
+                        </Link>
                     </Ratio>
                     <Card.Title>{nombre}</Card.Title>
-                    <Card.Text>
+                    <Card.Text as="div" className="py-2">
                         {descripcion1 !== undefined && parse(descripcion1)}
                     </Card.Text>
-                    <Card.Text>{`Precio: $${precio} / Stock: ${stock}`}</Card.Text>
+                    <Card.Text
+                        as="div"
+                        className="py-2"
+                    >{`Precio: $${precio} / Stock: ${stock}`}</Card.Text>
                     <Link to={`/producto/${id}`}>
                         <Button variant="primary">Ver detalle</Button>
                     </Link>

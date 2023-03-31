@@ -6,6 +6,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import EstadoCarroContexto from "./context/EstadoCarroContexto";
+import PedidoContainer from "./components/pedidoContainer";
 
 const App = () => {
     return (
@@ -25,6 +26,11 @@ const App = () => {
                         exact
                         path="/producto/:productoId"
                         element={<ItemDetailContainer />}
+                    />
+                    <Route
+                        exact
+                        path="/pedido/:pedidoId"
+                        element={<PedidoContainer />}
                     />
                 </Routes>
                 <Footer />

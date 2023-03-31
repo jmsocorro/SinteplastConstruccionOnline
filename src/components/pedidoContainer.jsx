@@ -3,25 +3,28 @@ import { useParams } from "react-router-dom";
 import { doc, getDoc, getFirestore } from "firebase/firestore";
 import { Container, Row, Col, Spinner } from "react-bootstrap";
 
-import ItemDetail from "./ItemDetail";
+import Pedido from "./pedido";
 
-const ItemDetailContainer = () => {
-    const { productoId } = useParams();
-    const [productoCargado, cambiarProducto] = useState([]);
+
+const PedidoContainer = () => {
+    const { pedidoId } = useParams();
+    const [pedidoCargado, asignarPedido] = useState([]);
 
     useEffect(() => {
         const bbdd = getFirestore();
-        const producto = doc(bbdd, "productos", `${productoId}`);
+        const pedido = doc(bbdd, "pedidos", `${pedidoId}`);
+        console.log(pedidoId);
 
-        getDoc(producto).then((vista) => {
+        getDoc(pedido).then((vista) => {
             if (vista.exists()){
-                const prod = vista.data();
-                cambiarProducto(prod);
+                const ped = vista.data();
+                console.log(ped);
+                asignarPedido(ped);
             }
         })
     }, []);
-    
-    if (productoCargado.length === 0){
+
+    if (pedidoCargado.length === 0){
         return (
             <Container>
                 <Row className="pt-4">
@@ -37,9 +40,9 @@ const ItemDetailContainer = () => {
             </Container>
         );
     } else {
-        return <ItemDetail producto={productoCargado} />;
+        return <Pedido pedido={pedidoCargado} />;
 
     }
-};
+}
 
-export default ItemDetailContainer;
+export default PedidoContainer
