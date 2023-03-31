@@ -1,16 +1,24 @@
+
+import { useParams } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import PedidoItem from "./PedidoItem";
 
 const Pedido = ({ pedido }) => {
-    console.log(pedido);
+    const { pedidoId } = useParams();
+    console.log(pedido.datosPedido.nombre);
     const total = pedido.pedido.reduce((accumulator, producto) => {
         return accumulator + producto.unidades * producto.precio;
     }, 0);
     return (
-        <Container className={`carro estado${pedido.estado}`}>
+        <Container className={`pedido estado${pedido.estado}`}>
             <Row className="pt-4">
                 <Col sm={12}>
-                    <h1 className="text-center">Tu pedido</h1>
+                    <h1 className="text-center">Tu pedido [{pedidoId}]</h1>
+                </Col>
+            </Row>
+            <Row className="pt-4 border">
+                <Col lg={12}>
+                    {pedido.datosPedido.nombre} {pedido.datosPedido.apellido}
                 </Col>
             </Row>
             {pedido.pedido.map((producto, prodIndex) => {

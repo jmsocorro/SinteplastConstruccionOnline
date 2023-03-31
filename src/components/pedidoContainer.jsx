@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { doc, getDoc, getFirestore } from "firebase/firestore";
 import { Container, Row, Col, Spinner } from "react-bootstrap";
 
-import Pedido from "./pedido";
+import Pedido from "./Pedido";
 
 
 const PedidoContainer = () => {
