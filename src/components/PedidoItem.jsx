@@ -46,7 +46,7 @@ const PedidoItem = ({ producto, prodIndex }) => {
                 sm={6}
                 className="d-flex align-items-center justify-content-center flex-column"
             >
-                <div className="comprar p-2 border border-2 border-primary rounded-4 d-flex align-items-center justify-content-center fs-3">
+                <div className="comprar p-2 d-flex align-items-center justify-content-center fs-3">
                     <div className="d-inline-block p-2 fs-4">{unidades} unidades</div>
                 </div>
             </Col>

@@ -1,14 +1,20 @@
-import { Link } from "react-router-dom";
-import { collection, addDoc, getFirestore, serverTimestamp  } from "firebase/firestore";
+import { useNavigate } from "react-router-dom";
+import {
+    collection,
+    addDoc,
+    getFirestore,
+    serverTimestamp,
+} from "firebase/firestore";
 import { useState, useContext } from "react";
 import { Form, Row, Col, InputGroup } from "react-bootstrap";
 
 import { ProvContextoCarro } from "../context/EstadoCarroContexto";
 
 const CartForm = () => {
-    const { carro, asignarEstado} = useContext(ProvContextoCarro);
+    const { carro, asignarEstado, borrarCarro } =
+        useContext(ProvContextoCarro);
+    const navigate = useNavigate();
 
-    const [nroOrden, asignarOrden] = useState(null);
     const [validado, asignarValidacion] = useState(false);
     const [datosPedido, asignarDatosPedido] = useState("");
 
@@ -16,11 +22,10 @@ const CartForm = () => {
     const coleccion = collection(db, "pedidos");
     //
     const abmDatosPedido = (elm) => {
-        let pedidoModificado = {...datosPedido};
+        let pedidoModificado = { ...datosPedido };
         console.log(elm.getAttribute("name"), elm.value);
         pedidoModificado[elm.getAttribute("name")] = elm.value;
         asignarDatosPedido(pedidoModificado);
-        console.log(datosPedido);
     };
 
     const pedido = {
@@ -36,12 +41,16 @@ const CartForm = () => {
             console.log("error");
         } else {
             console.log(datosPedido);
-            addDoc(coleccion, { datosPedido: datosPedido, pedido: carro, estado: 2, fecha: serverTimestamp()}).then(
-                ({ id }) => {
-                    asignarOrden(id);
-                    asignarEstado(2);
-                },
-            );
+            addDoc(coleccion, {
+                datosPedido: datosPedido,
+                pedido: carro,
+                estado: 2,
+                fecha: serverTimestamp(),
+            }).then(({ id }) => {
+                asignarEstado(2);
+                borrarCarro();
+                navigate(`/pedido/${id}`);
+            });
         }
         asignarValidacion(true);
     };
@@ -103,10 +112,14 @@ const CartForm = () => {
                                     type="number"
                                     placeholder="Cod. País"
                                     className="w-25"
-                                    name="ccp"
-                                    defaultValue="54"
+                                    name="ddi"
+                                    defaultValue={""}
                                     required
+                                    onChange={(ev) => {
+                                        abmDatosPedido(ev.target);
+                                    }}
                                 >
+                                    <option value={""}>Seleccione</option>
                                     <option title="DZ" value="213">
                                         Algeria (+213)
                                     </option>
@@ -846,7 +859,7 @@ const CartForm = () => {
                                     type="number"
                                     placeholder="Número"
                                     className="w-25"
-                                    name="calle-num"
+                                    name="calleNum"
                                     onChange={(ev) => {
                                         abmDatosPedido(ev.target);
                                     }}
@@ -891,9 +904,6 @@ const CartForm = () => {
                     />
                 </div>
             </Form>
-            <Link to={`/pedido/${nroOrden}`}>VER TU PEDIDO</Link>
-
-
         </div>
     );
 };

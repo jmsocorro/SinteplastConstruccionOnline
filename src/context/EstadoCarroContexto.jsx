@@ -10,7 +10,7 @@ const EstadoCarroContexto = ({ children }) => {
             return accumulator + producto.unidades * producto.precio;
         }, 0),
     );
-    const [estadoPedido, asignarEstado] = useState (0);
+    const [estadoPedido, asignarEstado] = useState(0);
 
     const agregarProducto = (prod, prodIndex, unidades) => {
         console.log(prod, prodIndex, unidades);
@@ -81,6 +81,11 @@ const EstadoCarroContexto = ({ children }) => {
         );
     };
 
+    const borrarCarro = () => {
+        modificarCarro([]);
+        calcularUnidades(0);
+    };
+
     return (
         <ProvContextoCarro.Provider
             value={{
@@ -90,6 +95,7 @@ const EstadoCarroContexto = ({ children }) => {
                 estadoPedido,
                 agregarProducto,
                 quitarProducto,
+                borrarCarro,
                 asignarEstado,
             }}
         >

@@ -74,3 +74,13 @@
                     display: none
             .disponibles
                 display: none
+
+.pedido
+    .datos
+        font-size: 1.5rem
+        &[data-titulo]
+            &::before
+                display: block
+                content: attr(data-titulo)
+                font-weight: bold
+                font-size: 1rem

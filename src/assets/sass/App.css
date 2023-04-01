@@ -10906,4 +10906,14 @@ textarea.form-control-lg {
 }
 .carro.estado1 .producto .disponibles {
   display: none;
+}
+
+.pedido .datos {
+  font-size: 1.5rem;
+}
+.pedido .datos[data-titulo]::before {
+  display: block;
+  content: attr(data-titulo);
+  font-weight: bold;
+  font-size: 1rem;
 }/*# sourceMappingURL=App.css.map */
