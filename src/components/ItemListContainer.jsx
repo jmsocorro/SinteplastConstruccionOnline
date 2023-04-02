@@ -36,8 +36,11 @@ const ItemListContainer = () => {
     }
 
     // cierro el dropdown menuCategorias si esta abierto
-    document.querySelector('#menuCategorias.dropdown-toggle.show.nav-link') && document.querySelector('#menuCategorias.dropdown-toggle.show.nav-link').click();
-    
+    document.querySelector("#menuCategorias.dropdown-toggle.show.nav-link") &&
+        document
+            .querySelector("#menuCategorias.dropdown-toggle.show.nav-link")
+            .click();
+
     if (productosFiltrados.length > 0) {
         return <ItemList productosFiltrados={productosFiltrados} />;
     } else {

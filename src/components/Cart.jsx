@@ -6,7 +6,8 @@ import CartForm from "./CartForm";
 import CartItem from "./CartItem";
 
 const Cart = () => {
-    const { carro, total, estadoPedido, asignarEstado} = useContext(ProvContextoCarro);
+    const { carro, total, estadoPedido, asignarEstado } =
+        useContext(ProvContextoCarro);
 
     if (carro.length === 0) {
         return (
@@ -55,10 +56,20 @@ const Cart = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <Button className="finalizar w-100 my-3" variant="primary" size="lg" onClick={() => asignarEstado(1)}>
+                        <Button
+                            className="finalizar w-100 my-3"
+                            variant="primary"
+                            size="lg"
+                            onClick={() => asignarEstado(1)}
+                        >
                             FINALIZAR PEDIDO
                         </Button>
-                        <Button className="modificar w-100 my-3" variant="secondary" size="lg" onClick={() => asignarEstado(0)}>
+                        <Button
+                            className="modificar w-100 my-3"
+                            variant="secondary"
+                            size="lg"
+                            onClick={() => asignarEstado(0)}
+                        >
                             Modificar PEDIDO
                         </Button>
                     </Col>
@@ -66,7 +77,6 @@ const Cart = () => {
                 <Row>
                     <CartForm />
                 </Row>
-                
             </Container>
         );
     }

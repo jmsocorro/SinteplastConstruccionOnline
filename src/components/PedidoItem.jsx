@@ -1,6 +1,6 @@
 import { Col, Row, Figure, Ratio } from "react-bootstrap";
 
-const PedidoItem = ({ producto, prodIndex }) => {
+const PedidoItem = ({ producto }) => {
     // traigo el producto por props
     const { id, nombre, precio, archivo, unidades } = producto;
     let rutaImagen =
@@ -47,7 +47,9 @@ const PedidoItem = ({ producto, prodIndex }) => {
                 className="d-flex align-items-center justify-content-center flex-column"
             >
                 <div className="comprar p-2 d-flex align-items-center justify-content-center fs-3">
-                    <div className="d-inline-block p-2 fs-4">{unidades} unidades</div>
+                    <div className="d-inline-block p-2 fs-4">
+                        {unidades} unidades
+                    </div>
                 </div>
             </Col>
             <Col

@@ -3,14 +3,7 @@ import { Col, Card, Button, Ratio } from "react-bootstrap";
 import parse from "html-react-parser";
 
 const Item = ({ producto }) => {
-    const {
-        id,
-        nombre,
-        descripcion1,
-        stock,
-        precio,
-        archivo,
-    } = producto;
+    const { id, nombre, descripcion1, stock, precio, archivo } = producto;
     let rutaImagen =
         typeof archivo === "undefined"
             ? `https://sinteplastconstruccion.com.ar/assets/img/noimg.png`

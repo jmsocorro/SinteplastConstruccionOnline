@@ -11,8 +11,7 @@ import { Form, Row, Col, InputGroup } from "react-bootstrap";
 import { ProvContextoCarro } from "../context/EstadoCarroContexto";
 
 const CartForm = () => {
-    const { carro, asignarEstado, borrarCarro } =
-        useContext(ProvContextoCarro);
+    const { carro, asignarEstado, borrarCarro } = useContext(ProvContextoCarro);
     const navigate = useNavigate();
 
     const [validado, asignarValidacion] = useState(false);
@@ -23,14 +22,8 @@ const CartForm = () => {
     //
     const abmDatosPedido = (elm) => {
         let pedidoModificado = { ...datosPedido };
-        console.log(elm.getAttribute("name"), elm.value);
         pedidoModificado[elm.getAttribute("name")] = elm.value;
         asignarDatosPedido(pedidoModificado);
-    };
-
-    const pedido = {
-        //datosPedido,
-        productos: carro,
     };
 
     const envioOrden = (ev) => {
@@ -38,9 +31,7 @@ const CartForm = () => {
         const formulario = ev.currentTarget;
         if (formulario.checkValidity() === false) {
             ev.stopPropagation();
-            console.log("error");
         } else {
-            console.log(datosPedido);
             addDoc(coleccion, {
                 datosPedido: datosPedido,
                 pedido: carro,

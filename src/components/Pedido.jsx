@@ -33,6 +33,8 @@ const Pedido = ({ pedido }) => {
                                 month: "long",
                                 day: "2-digit",
                                 year: "numeric",
+                                hour: "2-digit",
+                                minute : "2-digit",
                             })}
                         </Col>
                         <Col

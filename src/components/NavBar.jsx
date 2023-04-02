@@ -1,16 +1,15 @@
 import { Link } from "react-router-dom";
-import { Container, Navbar, NavDropdown, Row, Col  } from "react-bootstrap";
+import { Container, Navbar, NavDropdown, Row, Col } from "react-bootstrap";
 
 import CartWidget from "./CartWidget";
-
 
 const NavBar = () => {
     // Cambio en class de la barra de navegacion al hacer scroll
     window.onscroll = () => {
         if (window.scrollY > 200) {
-            document.getElementById('navbar-top').classList.add('dark');
+            document.getElementById("navbar-top").classList.add("dark");
         } else {
-            document.getElementById('navbar-top').classList.remove('dark');
+            document.getElementById("navbar-top").classList.remove("dark");
         }
     };
 
@@ -20,7 +19,11 @@ const NavBar = () => {
                 <Row className="w-100 h-100">
                     <Col lg={5} className="d-flex align-items-center p-4 h-100">
                         <Navbar.Toggle aria-controls="navbar-collapse-id" />
-                        <NavDropdown title="Categorías" id="menuCategorias" autoClose="true">
+                        <NavDropdown
+                            title="Categorías"
+                            id="menuCategorias"
+                            autoClose="true"
+                        >
                             <Link
                                 to={`/categoria/Impermeabilizantes`}
                                 className="dropdown-item"
@@ -102,8 +105,7 @@ const NavBar = () => {
                     </Col>
                     <Col lg={2} className="h-100 position-relative">
                         <Link to={`/`}>
-                            <Navbar.Brand>
-                            </Navbar.Brand>
+                            <Navbar.Brand></Navbar.Brand>
                         </Link>
                     </Col>
                     <Col

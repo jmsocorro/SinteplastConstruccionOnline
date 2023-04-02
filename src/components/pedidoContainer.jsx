@@ -5,7 +5,6 @@ import { Container, Row, Col, Spinner } from "react-bootstrap";
 
 import Pedido from "./Pedido";
 
-
 const PedidoContainer = () => {
     const { pedidoId } = useParams();
     const [pedidoCargado, asignarPedido] = useState([]);
@@ -13,20 +12,17 @@ const PedidoContainer = () => {
     useEffect(() => {
         const bbdd = getFirestore();
         const pedido = doc(bbdd, "pedidos", `${pedidoId}`);
-        console.log(pedidoId);
-
         getDoc(pedido).then((vista) => {
-            if (vista.exists()){
+            if (vista.exists()) {
                 const ped = vista.data();
-                console.log(ped);
                 asignarPedido(ped);
             } else {
                 asignarPedido({});
             }
-        })
+        });
     }, []);
 
-    if (pedidoCargado.length === 0){
+    if (pedidoCargado.length === 0) {
         return (
             <Container>
                 <Row className="pt-4">
@@ -43,8 +39,7 @@ const PedidoContainer = () => {
         );
     } else {
         return <Pedido pedido={pedidoCargado} />;
-
     }
-}
+};
 
-export default PedidoContainer
+export default PedidoContainer;

@@ -5,7 +5,6 @@ import {
     Ratio,
     Figure,
     Tooltip,
-    Spinner,
     Container,
     OverlayTrigger,
 } from "react-bootstrap";
@@ -48,7 +47,6 @@ const ItemDetail = ({ producto }) => {
 
     const [unidades, asignarUnidades] = useState(unidadesIniciales);
 
-    //
     const modificarUnidades = (modificacion) => {
         let unidadesMinimas = 1;
         let nuevasUnidades =
@@ -224,9 +222,14 @@ const ItemDetail = ({ producto }) => {
             <Container>
                 <Row className="pt-4">
                     <Col sm={12} className="d-flex justify-content-center">
-                        <span className="material-symbols-outlined fs-1">link_off</span>
+                        <span className="material-symbols-outlined fs-1">
+                            link_off
+                        </span>
                     </Col>
-                    <Col sm={12} className="d-flex justify-content-center pt-2 fs-3">
+                    <Col
+                        sm={12}
+                        className="d-flex justify-content-center pt-2 fs-3"
+                    >
                         <div>EL producto que buscas no existe</div>
                     </Col>
                 </Row>

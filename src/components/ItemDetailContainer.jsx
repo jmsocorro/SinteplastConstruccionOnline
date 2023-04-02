@@ -14,16 +14,16 @@ const ItemDetailContainer = () => {
         const producto = doc(bbdd, "productos", `${productoId}`);
 
         getDoc(producto).then((vista) => {
-            if (vista.exists()){
+            if (vista.exists()) {
                 const prod = vista.data();
                 cambiarProducto(prod);
             } else {
                 cambiarProducto({});
             }
-        })
+        });
     }, []);
-    
-    if (productoCargado.length === 0){
+
+    if (productoCargado.length === 0) {
         return (
             <Container>
                 <Row className="pt-4">
@@ -40,7 +40,6 @@ const ItemDetailContainer = () => {
         );
     } else {
         return <ItemDetail producto={productoCargado} />;
-
     }
 };
 
