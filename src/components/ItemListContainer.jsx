@@ -12,7 +12,7 @@ import { Container, Row, Col, Spinner } from "react-bootstrap";
 import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
-    const { familiaId } = useParams();
+    const { categoriaId } = useParams();
     const [productosCargados, cambiarProductos] = useState([]);
 
     useEffect(() => {
@@ -29,14 +29,15 @@ const ItemListContainer = () => {
 
     let productosFiltrados = productosCargados;
 
-    if (typeof familiaId !== "undefined") {
+    if (typeof categoriaId !== "undefined") {
         productosFiltrados = productosCargados.filter((producto) => {
-            console.log(producto.familia, familiaId);
-            return producto.familia.toLowerCase() === familiaId.toLowerCase();
+            return producto.familia.toLowerCase() === categoriaId.toLowerCase();
         });
-        console.log(productosFiltrados);
     }
-    console.log(productosFiltrados.length)
+
+    // cierro el dropdown menuCategorias si esta abierto
+    document.querySelector('#menuCategorias.dropdown-toggle.show.nav-link') && document.querySelector('#menuCategorias.dropdown-toggle.show.nav-link').click();
+    
     if (productosFiltrados.length > 0) {
         return <ItemList productosFiltrados={productosFiltrados} />;
     } else {

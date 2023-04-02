@@ -14,54 +14,53 @@ import parse from "html-react-parser";
 import { ProvContextoCarro } from "../context/EstadoCarroContexto";
 
 const ItemDetail = ({ producto }) => {
-        const {
-            id,
-            nombre,
-            descripcion1,
-            descripcion2,
-            descripcion3,
-            descripcion4,
-            descripcion5,
-            descripcion6,
-            descripcion10,
-            familia,
-            stock,
-            precio,
-            archivo,
-        } = producto;
-        let rutaImagen =
-            typeof archivo === "undefined"
-                ? `https://sinteplastconstruccion.com.ar/assets/img/noimg.png`
-                : `https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/photos/h300/${archivo}`;
+    const {
+        id,
+        nombre,
+        descripcion1,
+        descripcion2,
+        descripcion3,
+        descripcion4,
+        descripcion5,
+        descripcion6,
+        descripcion10,
+        familia,
+        stock,
+        precio,
+        archivo,
+    } = producto;
+    let rutaImagen =
+        typeof archivo === "undefined"
+            ? `https://sinteplastconstruccion.com.ar/assets/img/noimg.png`
+            : `https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/photos/h300/${archivo}`;
 
-        const { carro, agregarProducto, quitarProducto } =
-            useContext(ProvContextoCarro);
-        // Armo una copia temporal del carro
-        let carroTemp = carro;
+    const { carro, agregarProducto, quitarProducto } =
+        useContext(ProvContextoCarro);
+    // Armo una copia temporal del carro
+    let carroTemp = carro;
 
-        // Verifico si el producto se encuentra en el carro y copio el index
-        let prodIndex = carroTemp.findIndex((prod) => prod.id === id);
+    // Verifico si el producto se encuentra en el carro y copio el index
+    let prodIndex = carroTemp.findIndex((prod) => prod.id === id);
 
-        // Si el producto se encuentra en el carrito modifico las unidades iniciales
-        let unidadesIniciales =
-            prodIndex !== -1 ? carroTemp[prodIndex].unidades : 1;
-        //(prodIndex !== -1 && carroTemp[prodIndex].unidades !== unidades) && asignarUnidades(carroTemp[prodIndex].unidades);
+    // Si el producto se encuentra en el carrito modifico las unidades iniciales
+    let unidadesIniciales =
+        prodIndex !== -1 ? carroTemp[prodIndex].unidades : 1;
 
-        const [unidades, asignarUnidades] = useState(unidadesIniciales);
+    const [unidades, asignarUnidades] = useState(unidadesIniciales);
 
-        //
-        const modificarUnidades = (modificacion) => {
-            let unidadesMinimas = 1;
-            let nuevasUnidades =
-                modificacion === 0 ? modificacion : unidades + modificacion;
-            if (nuevasUnidades < unidadesMinimas) {
-                nuevasUnidades = unidadesMinimas;
-            } else if (nuevasUnidades > stock) {
-                nuevasUnidades = stock;
-            }
-            asignarUnidades(nuevasUnidades);
-        };
-
+    //
+    const modificarUnidades = (modificacion) => {
+        let unidadesMinimas = 1;
+        let nuevasUnidades =
+            modificacion === 0 ? modificacion : unidades + modificacion;
+        if (nuevasUnidades < unidadesMinimas) {
+            nuevasUnidades = unidadesMinimas;
+        } else if (nuevasUnidades > stock) {
+            nuevasUnidades = stock;
+        }
+        asignarUnidades(nuevasUnidades);
+    };
+    if (typeof id !== "undefined") {
         return (
             <Container className="itendetails">
                 <Row className="pt-4">
@@ -83,7 +82,10 @@ const ItemDetail = ({ producto }) => {
                         <div className="informacion">
                             <h1>{nombre}</h1>
                             <h3>{familia}</h3>
-                            <h4>{descripcion1 !== undefined && parse(descripcion1)}</h4>
+                            <h4>
+                                {descripcion1 !== undefined &&
+                                    parse(descripcion1)}
+                            </h4>
                             <h4>{`Precio: $${precio} / Stock: ${stock}`}</h4>
                         </div>
                         <div className="comprar p-3 border border-2 border-primary mt-4 rounded-4 d-flex align-items-center justify-content-center fs-3">
@@ -188,17 +190,49 @@ const ItemDetail = ({ producto }) => {
                             </OverlayTrigger>
                         </div>
                         <div className="masinformacion pt-4">
-                            {descripcion2 !== undefined && parse(`<div className="fs-5 pt-2" data-titulo="Usos">${descripcion2}</div>`)}
-                            {descripcion3 !== undefined && parse(`<div className="fs-5 pt-2" data-titulo="Características">${descripcion3}</div>`)}
-                            {descripcion4 !== undefined && parse(`<div className="fs-5 pt-2" data-titulo="Ventajas">${descripcion4}</div>`)}
-                            {descripcion5 !== undefined && parse(`<div className="fs-5 pt-2" data-titulo="Presentación">${descripcion5}</div>`)}
-                            {descripcion6 !== undefined && parse(`<div className="fs-5 pt-2" data-titulo="Consumo">${descripcion6}</div>`)}
-                            {descripcion10 !== undefined && parse(`<div className="fs-5 pt-2" data-titulo="Aplicación">${descripcion10}</div>`)}
+                            {descripcion2 !== undefined &&
+                                parse(
+                                    `<div className="fs-5 pt-2" data-titulo="Usos">${descripcion2}</div>`,
+                                )}
+                            {descripcion3 !== undefined &&
+                                parse(
+                                    `<div className="fs-5 pt-2" data-titulo="Características">${descripcion3}</div>`,
+                                )}
+                            {descripcion4 !== undefined &&
+                                parse(
+                                    `<div className="fs-5 pt-2" data-titulo="Ventajas">${descripcion4}</div>`,
+                                )}
+                            {descripcion5 !== undefined &&
+                                parse(
+                                    `<div className="fs-5 pt-2" data-titulo="Presentación">${descripcion5}</div>`,
+                                )}
+                            {descripcion6 !== undefined &&
+                                parse(
+                                    `<div className="fs-5 pt-2" data-titulo="Consumo">${descripcion6}</div>`,
+                                )}
+                            {descripcion10 !== undefined &&
+                                parse(
+                                    `<div className="fs-5 pt-2" data-titulo="Aplicación">${descripcion10}</div>`,
+                                )}
                         </div>
                     </Col>
                 </Row>
             </Container>
         );
+    } else {
+        return (
+            <Container>
+                <Row className="pt-4">
+                    <Col sm={12} className="d-flex justify-content-center">
+                        <span className="material-symbols-outlined fs-1">link_off</span>
+                    </Col>
+                    <Col sm={12} className="d-flex justify-content-center pt-2 fs-3">
+                        <div>EL producto que buscas no existe</div>
+                    </Col>
+                </Row>
+            </Container>
+        );
+    }
 };
 
 export default ItemDetail;

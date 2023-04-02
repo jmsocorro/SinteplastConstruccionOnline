@@ -20,6 +20,8 @@ const PedidoContainer = () => {
                 const ped = vista.data();
                 console.log(ped);
                 asignarPedido(ped);
+            } else {
+                asignarPedido({});
             }
         })
     }, []);

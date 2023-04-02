@@ -13,15 +13,10 @@ const EstadoCarroContexto = ({ children }) => {
     const [estadoPedido, asignarEstado] = useState(0);
 
     const agregarProducto = (prod, prodIndex, unidades) => {
-        console.log(prod, prodIndex, unidades);
         const {
             id,
             nombre,
             descripcion1,
-            familiaid,
-            familia,
-            tipoid,
-            tipo,
             stock,
             precio,
             archivo,
@@ -55,16 +50,7 @@ const EstadoCarroContexto = ({ children }) => {
 
     const quitarProducto = (prod, prodIndex) => {
         const {
-            id,
             nombre,
-            descripcion1,
-            familiaid,
-            familia,
-            tipoid,
-            tipo,
-            stock,
-            precio,
-            archivo,
         } = prod;
         if (prodIndex !== -1) {
             carro.splice(prodIndex, 1);
@@ -77,6 +63,11 @@ const EstadoCarroContexto = ({ children }) => {
         calcularUnidades(
             carro.reduce((accumulator, producto) => {
                 return accumulator + producto.unidades;
+            }, 0),
+        );
+        calcularTotal(
+            carro.reduce((accumulator, producto) => {
+                return accumulator + producto.unidades * producto.precio;
             }, 0),
         );
     };

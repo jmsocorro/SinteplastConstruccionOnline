@@ -3,86 +3,96 @@ import { Container, Navbar, NavDropdown, Row, Col  } from "react-bootstrap";
 
 import CartWidget from "./CartWidget";
 
+
 const NavBar = () => {
+    // Cambio en class de la barra de navegacion al hacer scroll
+    window.onscroll = () => {
+        if (window.scrollY > 200) {
+            document.getElementById('navbar-top').classList.add('dark');
+        } else {
+            document.getElementById('navbar-top').classList.remove('dark');
+        }
+    };
+
     return (
-        <Navbar expand="lg" variant="light" fixed="top">
-            <Container fluid>
-                <Row className="w-100">
-                    <Col lg={5} className="d-flex align-items-center p-4">
+        <Navbar expand="lg" variant="light" fixed="top" id="navbar-top">
+            <Container fluid className="h-100">
+                <Row className="w-100 h-100">
+                    <Col lg={5} className="d-flex align-items-center p-4 h-100">
                         <Navbar.Toggle aria-controls="navbar-collapse-id" />
-                        <NavDropdown title="Familias" id="nav-dropdown">
+                        <NavDropdown title="Categorías" id="menuCategorias" autoClose="true">
                             <Link
-                                to={`/familia/Impermeabilizantes`}
+                                to={`/categoria/Impermeabilizantes`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Impermeabilizantes
                             </Link>
                             <Link
-                                to={`/familia/Reparación de hormigón`}
+                                to={`/categoria/Reparación de hormigón`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Reparación de hormigón
                             </Link>
                             <Link
-                                to={`/familia/Aditivos`}
+                                to={`/categoria/Aditivos`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Aditivos
                             </Link>
                             <Link
-                                to={`/familia/Grout`}
+                                to={`/categoria/Grout`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Grout
                             </Link>
                             <Link
-                                to={`/familia/Selladores`}
+                                to={`/categoria/Selladores`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Selladores
                             </Link>
                             <Link
-                                to={`/familia/Adhesivos`}
+                                to={`/categoria/Adhesivos`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Adhesivos
                             </Link>
                             <Link
-                                to={`/familia/Pisos decorativos`}
+                                to={`/categoria/Pisos decorativos`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Pisos decorativos
                             </Link>
                             <Link
-                                to={`/familia/Revoques`}
+                                to={`/categoria/Revoques`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Revoques
                             </Link>
                             <Link
-                                to={`/familia/Pastinas`}
+                                to={`/categoria/Pastinas`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Pastinas
                             </Link>
                             <Link
-                                to={`/familia/Pisos de alto desempeño`}
+                                to={`/categoria/Pisos de alto desempeño`}
                                 className="dropdown-item"
                                 role="button"
                             >
                                 Pisos de alto desempeño
                             </Link>
                             <Link
-                                to={`/familia/Complementos`}
+                                to={`/categoria/Complementos`}
                                 className="dropdown-item"
                                 role="button"
                             >
@@ -90,19 +100,15 @@ const NavBar = () => {
                             </Link>
                         </NavDropdown>
                     </Col>
-                    <Col lg={2}>
+                    <Col lg={2} className="h-100 position-relative">
                         <Link to={`/`}>
                             <Navbar.Brand>
-                                <img
-                                    src="/src/assets/img/logopos.svg"
-                                    alt="Sinteplast Construcción Logo"
-                                />
                             </Navbar.Brand>
                         </Link>
                     </Col>
                     <Col
                         lg={5}
-                        className="d-flex align-items-center justify-content-end p-4"
+                        className="d-flex align-items-center justify-content-end p-4 h-100"
                     >
                         <CartWidget />
                     </Col>

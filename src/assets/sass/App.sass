@@ -1,20 +1,50 @@
 @import "~bootstrap/scss/bootstrap"
 
+a
+    text-decoration: none !important
 
 .navbar
     padding: 0
-    background: rgb(255,255,255)
-    background: -moz-linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,.1) 75%, rgba(0,0,0,0.2) 100%)
-    background: -webkit-linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,.1) 75%, rgba(0,0,0,0.2) 100%)
-    background: linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,.1) 75%, rgba(0,0,0,0.25) 100%)
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1)
+    height: 5rem
+    transition: all .5s
+    .navbar-brand
+        position: absolute
+        top: 0
+        bottom: 0
+        right: 0
+        left: 0
+        width: 100%
+        height: 100%
+        &::before
+            position: absolute
+            content: ''
+            top: 0
+            bottom: 0
+            right: 0
+            left: 0
+            background-position: center
+            background-size: contain
+            background-repeat: no-repeat
+            background-image: url(/src/assets/img/logopos.svg)
+    #menuCategorias
+        font-style: 1.5rem
+        font-weight: 700
+        color: #FFFF
+        padding: 0.5rem
+    &.dark
+        background: rgb(108,117,125)
+        height: 3rem   
+        .navbar-brand
+            &::before
+                top: 5px
+                bottom:5px
+                background-image: url(/src/assets/img/logoneg.svg)
 #root
     position: relative
     padding-bottom: 10rem
     min-height: 100vh
 .ilc
     padding-top: 20vh
-    background: #CCC
     .saludo
         width: fit-content
         margin: auto
@@ -31,11 +61,62 @@
                 opacity: .5
 .itemList
     padding-bottom: 2rem
+.banner
+    position: relative
+    background: rgb(0, 0, 0)
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,.1) 75%, rgba(0,0,0,0.5) 100%)
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,.1) 75%, rgba(0,0,0,0.5) 100%)
+    background: linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,.1) 75%, rgba(0,0,0,0.5) 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1)
+    &::after
+        position: absolute
+        content: ''
+        top: 0
+        bottom: 0
+        right: 0
+        left: 0
+        background-position: center
+        background-size: cover
+        mix-blend-mode: multiply
+        background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/cabecera.jpg)
+    &.categoriaImpermea
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia1.jpg)
+    &.categoriaReparaci
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia2.jpg)
+    &.categoriaAditivos
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia3.jpg)
+    &.categoriaGrout
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia4.jpg)
+    &.categoriaSellador
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia6.jpg)
+    &.categoriaAdhesivo
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia7.jpg)
+    &.categoriaPisosdec
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia5.jpg)
+    &.categoriaRevoques
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia9.jpg)
+    &.categoriaPastinas
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia27.jpg)
+    &.categoriaPisosdea 
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia8.jpg)
+    &.categoriaCompleme
+        &::after
+            background-image: url(https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/src/h700/familia28.jpg)
 .footer
     position: absolute
     bottom: 0
     .logoFooter
-        height: 7rem
+        height: 5rem
 .figure,
 .tooltip
     user-select: none

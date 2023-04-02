@@ -17,6 +17,8 @@ const ItemDetailContainer = () => {
             if (vista.exists()){
                 const prod = vista.data();
                 cambiarProducto(prod);
+            } else {
+                cambiarProducto({});
             }
         })
     }, []);

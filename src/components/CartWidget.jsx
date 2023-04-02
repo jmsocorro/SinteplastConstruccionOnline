@@ -8,7 +8,7 @@ const CartWidget = () => {
     const { unidadesTotales } = useContext(ProvContextoCarro);
 
     return (
-        <Link to={`/cart`}>
+        <Link to={`/cart`} className="cartWidget">
             <Badge bg="secondary" className="d-flex align-items-center">
                 <div className="material-symbols-outlined">shopping_cart</div>
                 <div className="items"> {unidadesTotales} </div>

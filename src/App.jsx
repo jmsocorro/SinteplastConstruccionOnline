@@ -5,8 +5,8 @@ import Cart from "./components/Cart";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
+import PedidoContainer from "./components/PedidoContainer";
 import EstadoCarroContexto from "./context/EstadoCarroContexto";
-import PedidoContainer from "./components/pedidoContainer";
 
 const App = () => {
     return (
@@ -19,7 +19,7 @@ const App = () => {
                     <Route exact path="/cart" element={<Cart />} />
                     <Route
                         exact
-                        path="/familia/:familiaId"
+                        path="/categoria/:categoriaId"
                         element={<ItemListContainer />}
                     />
                     <Route

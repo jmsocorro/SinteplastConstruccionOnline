@@ -12,17 +12,10 @@ import { ProvContextoCarro } from "../context/EstadoCarroContexto";
 
 const CartItem = ({ producto, prodIndex }) => {
     // traigo el carro del context
-    const { carro, total, agregarProducto, quitarProducto } =
+    const { agregarProducto, quitarProducto } =
         useContext(ProvContextoCarro);
     // traigo el producto por props
-    const {
-        id,
-        nombre,
-        stock,
-        precio,
-        archivo,
-        unidades,
-    } = producto;
+    const { id, nombre, stock, precio, archivo, unidades } = producto;
     let rutaImagen =
         typeof archivo === "undefined"
             ? `https://sinteplastconstruccion.com.ar/assets/img/noimg.png`

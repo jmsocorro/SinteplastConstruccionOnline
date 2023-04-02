@@ -31,7 +31,7 @@ const Cart = () => {
                         <CartItem
                             key={producto.id}
                             producto={producto}
-                            podIndex={prodIndex}
+                            prodIndex={prodIndex}
                         />
                     );
                 })}
