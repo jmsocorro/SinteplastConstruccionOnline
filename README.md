@@ -248,14 +248,15 @@ Genera un `Row` con los siguientes elementos del producto:
 Provee el contexto para el carro de compras.
 
 Se almacena y comparte lo siguiente:
-1. `carro` *(array)* contiene los productos.
-1. `unidadesTotales` *(number)* suma de las unidades de todos los productos.
-1. `total` *(number)* suma del precio de los productos en el carro por la unidades.
-1. `estadoPedido` *(number)* estado del pedido.
-1. `agregarProducto` *(funcion)* agrega un producto al `carro`.
-1. `quitarProducto` *(funcion)* quita un producto del `carro`.
-1. `borrarCarro` *(funcion)* convierte `carro` a un array vacío.
-1. `asignarEstado`, *(funcion)* modifica el valor de `estado`.
+
+1. `carro` _(array)_ contiene los productos.
+1. `unidadesTotales` _(number)_ suma de las unidades de todos los productos.
+1. `total` _(number)_ suma del precio de los productos en el carro por la unidades.
+1. `estadoPedido` _(number)_ estado del pedido.
+1. `agregarProducto` _(funcion)_ agrega un producto al `carro`.
+1. `quitarProducto` _(funcion)_ quita un producto del `carro`.
+1. `borrarCarro` _(funcion)_ convierte `carro` a un array vacío.
+1. `asignarEstado`, _(funcion)_ modifica el valor de `estado`.
 
 <a name="banner"></a>
 
@@ -269,15 +270,24 @@ Componente para desarrollar mas adelante que permita la inclución de banners di
 
 Componente para desarrollar mas adelante que permita la inclución de enlaces a redes sociales dinámicos.
 
+---
 
 ### Funcionamiento
 
 #### Listado de productos y filtrado por categorías
 
-![Listado de productos y filtrado por categorías!](./src/assets/img/gifs/listado.gif)
+![Listado de productos y filtrado por categorías](./src/assets/img/gifs/listado.gif)
 
-#### 
+#### Detalle del producto y manejo del carro
 
-[https://www.screentogif.com/]: #
+![Detalle del producto y manejo del carro](./src/assets/img/gifs/detalle.gif)
 
-![Segunda PreEntrega!](./src/assets/img/gifs/screen.gif "Segunda PreEntrega")
+#### Carro de compras
+
+![Carro de compras](./src/assets/img/gifs/carro.gif)
+
+#### Pedido
+
+![Pedido](./src/assets/img/gifs/pedido.gif)
+
+---
