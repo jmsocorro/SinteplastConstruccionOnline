@@ -3,7 +3,8 @@ import { createContext, useState } from "react";
 export const ProvContextoCarro = createContext(null);
 
 const EstadoCarroContexto = ({ children }) => {
-    const [carro, modificarCarro] = useState([]);
+    const carroLocalStorage = JSON.parse(localStorage.getItem('carro')) ? JSON.parse(localStorage.getItem('carro')) : [];
+    const [carro, modificarCarro] = useState(carroLocalStorage);
     const [unidadesTotales, calcularUnidades] = useState(carro.length);
     const [total, calcularTotal] = useState(
         carro.reduce((accumulator, producto) => {
@@ -11,6 +12,7 @@ const EstadoCarroContexto = ({ children }) => {
         }, 0),
     );
     const [estadoPedido, asignarEstado] = useState(0);
+    
 
     const agregarProducto = (prod, prodIndex, unidades) => {
         const {
@@ -36,6 +38,7 @@ const EstadoCarroContexto = ({ children }) => {
             prodIndex = carro.length - 1;
         }
         modificarCarro(carro);
+        localStorage.setItem('carro', JSON.stringify(carro));
         calcularUnidades(
             carro.reduce((accumulator, producto) => {
                 return accumulator + producto.unidades;
@@ -75,6 +78,7 @@ const EstadoCarroContexto = ({ children }) => {
     const borrarCarro = () => {
         modificarCarro([]);
         calcularUnidades(0);
+        localStorage.setItem('carro', JSON.stringify(carro));
     };
 
     return (
