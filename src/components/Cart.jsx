@@ -43,7 +43,7 @@ const Cart = () => {
                         sm={6}
                         className="fs-3 d-flex align-items-center justify-content-center flex-column"
                     >
-                        <button className="fs-5 btn"  onClick={() => {
+                        <button className="btn btn-light btn-sm"  onClick={() => {
                                 borrarCarro();
                             }}>Vaciar pedido</button>
                     </Col>
