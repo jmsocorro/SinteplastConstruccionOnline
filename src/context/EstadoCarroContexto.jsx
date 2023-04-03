@@ -78,7 +78,7 @@ const EstadoCarroContexto = ({ children }) => {
     const borrarCarro = () => {
         modificarCarro([]);
         calcularUnidades(0);
-        localStorage.setItem('carro', JSON.stringify(carro));
+        localStorage.removeItem('carro');
     };
 
     return (

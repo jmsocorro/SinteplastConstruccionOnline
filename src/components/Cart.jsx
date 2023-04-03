@@ -6,7 +6,7 @@ import CartForm from "./CartForm";
 import CartItem from "./CartItem";
 
 const Cart = () => {
-    const { carro, total, estadoPedido, asignarEstado } =
+    const { carro, total, estadoPedido, asignarEstado, borrarCarro } =
         useContext(ProvContextoCarro);
 
     if (carro.length === 0) {
@@ -38,8 +38,18 @@ const Cart = () => {
                 })}
                 <Row className="pt-4">
                     <Col
-                        lg={{ span: 3, offset: 7 }}
-                        md={{ span: 3, offset: 7 }}
+                        lg={7}
+                        md={7}
+                        sm={6}
+                        className="fs-3 d-flex align-items-center justify-content-center flex-column"
+                    >
+                        <button className="fs-5 btn"  onClick={() => {
+                                borrarCarro();
+                            }}>Vaciar pedido</button>
+                    </Col>
+                    <Col
+                        lg={3}
+                        md={3}
                         sm={6}
                         className="fs-3 d-flex align-items-center justify-content-center flex-column"
                     >
