@@ -258,6 +258,10 @@ Se almacena y comparte lo siguiente:
 1. `borrarCarro` _(funcion)_ convierte `carro` a un array vacío.
 1. `asignarEstado`, _(funcion)_ modifica el valor de `estado`.
 
+El carro se inicializa si existe con la variable `carro` guardada en LocalSorage, sino con un array vacio.
+
+En cada cambio del carro se modifica la variable `carro` guardada en LocalSorage.
+
 <a name="banner"></a>
 
 #### Banner
